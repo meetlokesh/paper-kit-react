@@ -49,6 +49,7 @@
 .modal-footer {
     border-top: 1px solid $medium-gray;
     padding: 0px;
+    flex-wrap: nowrap;
 
     &.no-border-footer{
         border-top: 0 none;

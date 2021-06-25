@@ -27,7 +27,7 @@ import "assets/demo/demo.css?v=1.3.0";
 // pages
 import Index from "views/Index.js";
 import NucleoIcons from "views/NucleoIcons.js";
-import LandingPage from "views/examples/LandingPage.js";
+import Dashboard from "components/Dashboard/Dashboard.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 // others
@@ -35,15 +35,16 @@ import RegisterPage from "views/examples/RegisterPage.js";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/index" render={(props) => <Index {...props} />} />
+    <Route
+        path="/dashboard"
+        render={(props) => <Dashboard {...props} />}
+      />
+      <Route path="/guide" render={(props) => <Index {...props} />} />
       <Route
         path="/nucleo-icons"
         render={(props) => <NucleoIcons {...props} />}
       />
-      <Route
-        path="/landing-page"
-        render={(props) => <LandingPage {...props} />}
-      />
+      
       <Route
         path="/profile-page"
         render={(props) => <ProfilePage {...props} />}
@@ -52,7 +53,7 @@ ReactDOM.render(
         path="/register-page"
         render={(props) => <RegisterPage {...props} />}
       />
-      <Redirect to="/index" />
+      <Redirect to="/dashboard" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
