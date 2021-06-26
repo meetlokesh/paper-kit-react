@@ -1,24 +1,12 @@
 /*!
 
 =========================================================
-* Paper Kit React - v1.3.0
+* Hobby-on - v1.3.0
 =========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 */
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
+import { HashRouter, Route, Redirect, Switch } from "react-router-dom";
 
 // styles
 import "bootstrap/scss/bootstrap.scss";
@@ -33,7 +21,7 @@ import RegisterPage from "views/examples/RegisterPage.js";
 // others
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
     <Route
         path="/dashboard"
@@ -55,6 +43,6 @@ ReactDOM.render(
       />
       <Redirect to="/dashboard" />
     </Switch>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById("root")
 );

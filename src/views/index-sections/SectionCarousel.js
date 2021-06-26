@@ -108,7 +108,7 @@ function SectionCarousel() {
                   <a
                     className="left carousel-control carousel-control-prev"
                     data-slide="prev"
-                    href="#pablo"
+                    href="/pablo"
                     onClick={(e) => {
                       e.preventDefault();
                       previous();
@@ -121,7 +121,7 @@ function SectionCarousel() {
                   <a
                     className="right carousel-control carousel-control-next"
                     data-slide="next"
-                    href="#pablo"
+                    href="/pablo"
                     onClick={(e) => {
                       e.preventDefault();
                       next();

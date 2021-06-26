@@ -69,7 +69,7 @@ function LandingPage() {
                 <Button
                   className="btn-round"
                   color="info"
-                  href="#pablo"
+                  href="/pablo"
                   onClick={(e) => e.preventDefault()}
                 >
                   See Details
@@ -90,7 +90,7 @@ function LandingPage() {
                       Spend your time generating new ideas. You don't have to
                       think of implementing.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    <Button className="btn-link" color="info" href="/pablo">
                       See more
                     </Button>
                   </div>
@@ -107,7 +107,7 @@ function LandingPage() {
                       Larger, yet dramatically thinner. More powerful, but
                       remarkably power efficient.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    <Button className="btn-link" color="info" href="/pablo">
                       See more
                     </Button>
                   </div>
@@ -124,7 +124,7 @@ function LandingPage() {
                       Choose from a veriety of many colors resembling sugar
                       paper pastels.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    <Button className="btn-link" color="info" href="/pablo">
                       See more
                     </Button>
                   </div>
@@ -141,7 +141,7 @@ function LandingPage() {
                       Find unique and handmade delightful designs related items
                       directly from our sellers.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    <Button className="btn-link" color="info" href="/pablo">
                       See more
                     </Button>
                   </div>
@@ -157,7 +157,7 @@ function LandingPage() {
               <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="/pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
                         src={
@@ -168,7 +168,7 @@ function LandingPage() {
                     </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="/pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Henry Ford</CardTitle>
                         <h6 className="card-category">Product Manager</h6>
@@ -184,7 +184,7 @@ function LandingPage() {
                     <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
-                      href="#pablo"
+                      href="/pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-twitter" />
@@ -192,7 +192,7 @@ function LandingPage() {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
+                      href="/pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-google-plus" />
@@ -200,7 +200,7 @@ function LandingPage() {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
+                      href="/pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-linkedin" />
@@ -211,7 +211,7 @@ function LandingPage() {
               <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="/pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
                         src={
@@ -221,7 +221,7 @@ function LandingPage() {
                     </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="/pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Sophie West</CardTitle>
                         <h6 className="card-category">Designer</h6>
@@ -238,7 +238,7 @@ function LandingPage() {
                     <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
-                      href="#pablo"
+                      href="/pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-twitter" />
@@ -246,7 +246,7 @@ function LandingPage() {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
+                      href="/pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-google-plus" />
@@ -254,7 +254,7 @@ function LandingPage() {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
+                      href="/pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-linkedin" />
@@ -265,7 +265,7 @@ function LandingPage() {
               <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="/pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
                         src={
@@ -276,7 +276,7 @@ function LandingPage() {
                     </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="/pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Robert Orben</CardTitle>
                         <h6 className="card-category">Developer</h6>
@@ -293,7 +293,7 @@ function LandingPage() {
                     <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
-                      href="#pablo"
+                      href="/pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-twitter" />
@@ -301,7 +301,7 @@ function LandingPage() {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
+                      href="/pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-google-plus" />
@@ -309,7 +309,7 @@ function LandingPage() {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
+                      href="/pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-linkedin" />

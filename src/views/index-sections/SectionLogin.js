@@ -53,7 +53,7 @@ function SectionLogin() {
                   <Button
                     className="btn-neutral btn-just-icon mt-0"
                     color="facebook"
-                    href="#pablo"
+                    href="/pablo"
                     onClick={(e) => e.preventDefault()}
                   >
                     <i className="fa fa-facebook-square" />
@@ -61,7 +61,7 @@ function SectionLogin() {
                   <Button
                     className="btn-neutral btn-just-icon mt-0 ml-1"
                     color="google"
-                    href="#pablo"
+                    href="/pablo"
                     onClick={(e) => e.preventDefault()}
                   >
                     <i className="fa fa-google-plus" />
@@ -69,7 +69,7 @@ function SectionLogin() {
                   <Button
                     className="btn-neutral btn-just-icon mt-0 ml-1"
                     color="twitter"
-                    href="#pablo"
+                    href="/pablo"
                     onClick={(e) => e.preventDefault()}
                   >
                     <i className="fa fa-twitter" />
@@ -107,7 +107,7 @@ function SectionLogin() {
                   <Button
                     className="btn-link"
                     color="danger"
-                    href="#pablo"
+                    href="/pablo"
                     onClick={(e) => e.preventDefault()}
                   >
                     Forgot password?

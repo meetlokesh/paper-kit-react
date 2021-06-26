@@ -53,7 +53,7 @@ function SectionDownload() {
               <h2 className="title">Want more?</h2>
               <p className="description">
                 We're going to launch{" "}
-                <a className="text-danger" href="#pablo" disabled>
+                <a className="text-danger" href="/pablo" disabled>
                   Paper Kit PRO React in a few weeks
                 </a>
                 . It will have a huge number of components, sections and example
@@ -61,7 +61,7 @@ function SectionDownload() {
               </p>
             </Col>
             <Col className="ml-auto mr-auto" sm="5">
-              <Button className="btn-round" color="info" href="#pablo" disabled>
+              <Button className="btn-round" color="info" href="/pablo" disabled>
                 <i aria-hidden={true} className="nc-icon nc-spaceship" />{" "}
                 Upgrade to PRO
               </Button>
@@ -75,7 +75,7 @@ function SectionDownload() {
               <Button
                 className="twitter-sharrre btn-round"
                 color="twitter-bg"
-                href="#pablo"
+                href="/pablo"
                 id="tooltip3373767"
                 onClick={(e) => e.preventDefault()}
               >
@@ -87,7 +87,7 @@ function SectionDownload() {
               <Button
                 className="linkedin-sharrre btn-round  ml-2"
                 color="google-bg"
-                href="#pablo"
+                href="/pablo"
                 id="tooltip840791273"
                 onClick={(e) => e.preventDefault()}
               >
@@ -99,7 +99,7 @@ function SectionDownload() {
               <Button
                 className="facebook-sharrre btn-round ml-2"
                 color="facebook-bg"
-                href="#pablo"
+                href="/pablo"
                 id="tooltip68961360"
                 onClick={(e) => e.preventDefault()}
               >

@@ -50,7 +50,7 @@ function SectionNavigation() {
           >
             <Navbar className="bg-primary" expand="lg">
               <Container>
-                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+                <NavbarBrand href="/pablo" onClick={(e) => e.preventDefault()}>
                   Primary Color
                 </NavbarBrand>
                 <button
@@ -71,7 +71,7 @@ function SectionNavigation() {
                   <Nav className="ml-auto" navbar>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         <i
@@ -83,7 +83,7 @@ function SectionNavigation() {
                     </NavItem>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         <i
@@ -95,7 +95,7 @@ function SectionNavigation() {
                     </NavItem>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         <i
@@ -111,7 +111,7 @@ function SectionNavigation() {
             </Navbar>
             <Navbar className="bg-info" expand="lg">
               <Container>
-                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+                <NavbarBrand href="/pablo" onClick={(e) => e.preventDefault()}>
                   Info Color
                 </NavbarBrand>
                 <button
@@ -132,7 +132,7 @@ function SectionNavigation() {
                   <Nav className="ml-auto" navbar>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         Discover
@@ -140,7 +140,7 @@ function SectionNavigation() {
                     </NavItem>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         Profile
@@ -148,7 +148,7 @@ function SectionNavigation() {
                     </NavItem>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         Settings
@@ -160,7 +160,7 @@ function SectionNavigation() {
             </Navbar>
             <Navbar className="bg-success" expand="lg">
               <Container>
-                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+                <NavbarBrand href="/pablo" onClick={(e) => e.preventDefault()}>
                   Success Color
                 </NavbarBrand>
                 <button
@@ -185,7 +185,7 @@ function SectionNavigation() {
                   <Nav className="ml-auto" navbar>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         <i
@@ -196,7 +196,7 @@ function SectionNavigation() {
                     </NavItem>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         <i
@@ -207,7 +207,7 @@ function SectionNavigation() {
                     </NavItem>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         <i
@@ -222,7 +222,7 @@ function SectionNavigation() {
             </Navbar>
             <Navbar className="bg-warning" expand="lg">
               <Container>
-                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+                <NavbarBrand href="/pablo" onClick={(e) => e.preventDefault()}>
                   Warning Color
                 </NavbarBrand>
                 <button
@@ -243,7 +243,7 @@ function SectionNavigation() {
                   <Nav className="ml-auto" navbar>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         <i
@@ -254,7 +254,7 @@ function SectionNavigation() {
                     </NavItem>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         <i aria-hidden={true} className="fa fa-twitter" />
@@ -262,7 +262,7 @@ function SectionNavigation() {
                     </NavItem>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         <i aria-hidden={true} className="fa fa-google-plus" />
@@ -270,7 +270,7 @@ function SectionNavigation() {
                     </NavItem>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         <i aria-hidden={true} className="fa fa-instagram" />
@@ -282,7 +282,7 @@ function SectionNavigation() {
             </Navbar>
             <Navbar className="bg-danger" expand="lg">
               <Container>
-                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+                <NavbarBrand href="/pablo" onClick={(e) => e.preventDefault()}>
                   Danger Color
                 </NavbarBrand>
                 <button
@@ -307,7 +307,7 @@ function SectionNavigation() {
                   <Nav className="ml-auto" navbar>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         <i
@@ -319,7 +319,7 @@ function SectionNavigation() {
                     </NavItem>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         <i aria-hidden={true} className="fa fa-twitter" />
@@ -328,7 +328,7 @@ function SectionNavigation() {
                     </NavItem>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         <i aria-hidden={true} className="fa fa-pinterest" />
@@ -341,7 +341,7 @@ function SectionNavigation() {
             </Navbar>
             <Navbar className="navbar-transparent pt-0" expand="lg">
               <Container>
-                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+                <NavbarBrand href="/pablo" onClick={(e) => e.preventDefault()}>
                   Transparent
                 </NavbarBrand>
                 <button
@@ -362,7 +362,7 @@ function SectionNavigation() {
                   <Nav className="ml-auto" navbar>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         <i
@@ -374,7 +374,7 @@ function SectionNavigation() {
                     </NavItem>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         <i aria-hidden={true} className="fa fa-twitter" />
@@ -383,7 +383,7 @@ function SectionNavigation() {
                     </NavItem>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         <i aria-hidden={true} className="fa fa-instagram" />

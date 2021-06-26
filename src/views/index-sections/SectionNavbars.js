@@ -47,7 +47,7 @@ function SectionNavbars() {
           <Row>
             <Col md="6">
               <Navbar className="bg-primary" expand="lg">
-                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+                <NavbarBrand href="/pablo" onClick={(e) => e.preventDefault()}>
                   Menu
                 </NavbarBrand>
                 <button
@@ -68,7 +68,7 @@ function SectionNavbars() {
                   <Nav className="mr-auto" navbar>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         Link
@@ -76,7 +76,7 @@ function SectionNavbars() {
                     </NavItem>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         Link
@@ -89,7 +89,7 @@ function SectionNavbars() {
                         caret
                         color="default"
                         data-toggle="dropdown"
-                        href="#pablo"
+                        href="/pablo"
                         id="dropdownMenuButton"
                         nav
                         onClick={(e) => e.preventDefault()}
@@ -105,33 +105,33 @@ function SectionNavbars() {
                           Dropdown header
                         </DropdownItem>
                         <DropdownItem
-                          href="#pablo"
+                          href="/pablo"
                           onClick={(e) => e.preventDefault()}
                         >
                           Action
                         </DropdownItem>
                         <DropdownItem
-                          href="#pablo"
+                          href="/pablo"
                           onClick={(e) => e.preventDefault()}
                         >
                           Another action
                         </DropdownItem>
                         <DropdownItem
-                          href="#pablo"
+                          href="/pablo"
                           onClick={(e) => e.preventDefault()}
                         >
                           Something else here
                         </DropdownItem>
                         <DropdownItem divider />
                         <DropdownItem
-                          href="#pablo"
+                          href="/pablo"
                           onClick={(e) => e.preventDefault()}
                         >
                           Separated link
                         </DropdownItem>
                         <DropdownItem divider />
                         <DropdownItem
-                          href="#pablo"
+                          href="/pablo"
                           onClick={(e) => e.preventDefault()}
                         >
                           Another separated link
@@ -144,7 +144,7 @@ function SectionNavbars() {
             </Col>
             <Col md="6">
               <Navbar className="bg-danger" expand="lg">
-                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+                <NavbarBrand href="/pablo" onClick={(e) => e.preventDefault()}>
                   Icons
                 </NavbarBrand>
                 <button
@@ -165,7 +165,7 @@ function SectionNavbars() {
                   <Nav className="ml-auto" navbar>
                     <NavItem className="active">
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         <i aria-hidden={true} className="nc-icon nc-email-85" />
@@ -173,7 +173,7 @@ function SectionNavbars() {
                     </NavItem>
                     <NavItem>
                       <NavLink
-                        href="#pablo"
+                        href="/pablo"
                         onClick={(e) => e.preventDefault()}
                       >
                         <i
@@ -189,7 +189,7 @@ function SectionNavbars() {
                         caret
                         color="default"
                         data-toggle="dropdown"
-                        href="#pablo"
+                        href="/pablo"
                         nav
                         onClick={(e) => e.preventDefault()}
                         role="button"
@@ -204,20 +204,20 @@ function SectionNavbars() {
                           Dropdown header
                         </DropdownItem>
                         <DropdownItem
-                          href="#pablo"
+                          href="/pablo"
                           onClick={(e) => e.preventDefault()}
                         >
                           Another action
                         </DropdownItem>
                         <DropdownItem
-                          href="#pablo"
+                          href="/pablo"
                           onClick={(e) => e.preventDefault()}
                         >
                           Something else here
                         </DropdownItem>
                         <DropdownItem divider />
                         <DropdownItem
-                          href="#pablo"
+                          href="/pablo"
                           onClick={(e) => e.preventDefault()}
                         >
                           Separated link

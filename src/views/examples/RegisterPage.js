@@ -52,7 +52,7 @@ function RegisterPage() {
                   <Button
                     className="btn-neutral btn-just-icon mr-1"
                     color="facebook"
-                    href="#pablo"
+                    href="/pablo"
                     onClick={(e) => e.preventDefault()}
                   >
                     <i className="fa fa-facebook-square" />
@@ -60,7 +60,7 @@ function RegisterPage() {
                   <Button
                     className="btn-neutral btn-just-icon mr-1"
                     color="google"
-                    href="#pablo"
+                    href="/pablo"
                     onClick={(e) => e.preventDefault()}
                   >
                     <i className="fa fa-google-plus" />
@@ -68,7 +68,7 @@ function RegisterPage() {
                   <Button
                     className="btn-neutral btn-just-icon"
                     color="twitter"
-                    href="#pablo"
+                    href="/pablo"
                     onClick={(e) => e.preventDefault()}
                   >
                     <i className="fa fa-twitter" />
@@ -87,7 +87,7 @@ function RegisterPage() {
                   <Button
                     className="btn-link"
                     color="danger"
-                    href="#pablo"
+                    href="/pablo"
                     onClick={(e) => e.preventDefault()}
                   >
                     Forgot password?

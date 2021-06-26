@@ -58,7 +58,7 @@ const Dashboard = ()=> {
                 <Button
                   className="btn-round"
                   color="info"
-                  href="#pablo"
+                  href="/pablo"
                   onClick={(e) => e.preventDefault()}
                 >
                   See Details
@@ -79,7 +79,7 @@ const Dashboard = ()=> {
                       Spend your time generating new ideas. You don't have to
                       think of implementing.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo" onClick={handleGallery}>
+                    <Button className="btn-link" color="info"  onClick={handleGallery}>
                       See more
                     </Button>
                    { isOpen && <Gallery/> }
@@ -97,7 +97,7 @@ const Dashboard = ()=> {
                       Larger, yet dramatically thinner. More powerful, but
                       remarkably power efficient.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    <Button className="btn-link" color="info" href="/pablo">
                       See more
                     </Button>
                   </div>
@@ -114,7 +114,7 @@ const Dashboard = ()=> {
                       Choose from a veriety of many colors resembling sugar
                       paper pastels.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    <Button className="btn-link" color="info" href="/pablo">
                       See more
                     </Button>
                   </div>
@@ -131,7 +131,7 @@ const Dashboard = ()=> {
                       Find unique and handmade delightful designs related items
                       directly from our sellers.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    <Button className="btn-link" color="info" href="/pablo">
                       See more
                     </Button>
                   </div>
@@ -147,7 +147,7 @@ const Dashboard = ()=> {
               <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="/pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
                         src={
@@ -158,7 +158,7 @@ const Dashboard = ()=> {
                     </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="/pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Nirbhay Raj Tannu</CardTitle>
                         <h6 className="card-category">Product Manager</h6>
@@ -174,7 +174,7 @@ const Dashboard = ()=> {
                     <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
-                      href="#pablo"
+                      href="/pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-twitter" />
@@ -182,7 +182,7 @@ const Dashboard = ()=> {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
+                      href="/pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-google-plus" />
@@ -190,7 +190,7 @@ const Dashboard = ()=> {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
+                      href="/pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-linkedin" />
@@ -201,7 +201,7 @@ const Dashboard = ()=> {
               <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="/pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
                         src={
@@ -211,7 +211,7 @@ const Dashboard = ()=> {
                     </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="/pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Prakhar Kalani</CardTitle>
                         <h6 className="card-category">{"Designer & consultant"}</h6>
@@ -228,7 +228,7 @@ const Dashboard = ()=> {
                     <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
-                      href="#pablo"
+                      href="/pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-twitter" />
@@ -236,7 +236,7 @@ const Dashboard = ()=> {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
+                      href="/pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-google-plus" />
@@ -244,7 +244,7 @@ const Dashboard = ()=> {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
+                      href="/pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-linkedin" />
@@ -255,7 +255,7 @@ const Dashboard = ()=> {
               <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="/pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
                         src={
@@ -266,7 +266,7 @@ const Dashboard = ()=> {
                     </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="/pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Mr. Technokr8</CardTitle>
                         <h6 className="card-category">Developer</h6>
@@ -283,7 +283,7 @@ const Dashboard = ()=> {
                     <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
-                      href="#pablo"
+                      href="/pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-twitter" />
@@ -291,7 +291,7 @@ const Dashboard = ()=> {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
+                      href="/pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-google-plus" />
@@ -299,7 +299,7 @@ const Dashboard = ()=> {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
+                      href="/pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-linkedin" />
