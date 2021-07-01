@@ -86,37 +86,24 @@ const SocialNetworkNavbar = ()=> {
         >
           <Nav navbar>
             <NavItem>
-              <NavLink to="/index" tag={Link}>
+            <NavLink href="#schedule" >
                 <i className="nc-icon nc-layout-11" /> Schedule
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink
-                href="http://thelokesh.co.in/"
-                target="_blank"
-                
-              >
-                <i className="nc-icon nc-book-bookmark" /> Contact Us
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                href="http://thelokesh.co.in/"
-                target="_blank"
-              >
+              <NavLink href="#aboutUs" >
                 <i className="nc-icon nc-book-bookmark" /> About Us
               </NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink href="#contactUs" >
+              <i className="nc-icon nc-book-bookmark" /> Contact Us
+              </NavLink>
+            </NavItem>            
             
             {/* <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="http://thelokesh.co.in/"
-                target="_blank"
-                title="Follow us on Twitter"
-              >
-                <i className="fa fa-twitter" />
-                <p className="d-lg-none">Twitter</p>
+              <NavLink to="/index" tag={Link}>
+                <i className="nc-icon nc-layout-11" /> Schedule
               </NavLink>
             </NavItem>
             <NavItem>

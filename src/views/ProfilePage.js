@@ -66,7 +66,7 @@ function ProfilePage() {
               <img
                 alt="..."
                 className="img-circle img-no-padding img-responsive"
-                src={require("assets/img/faces/joe-gardner-2.jpg").default}
+                src={require("assets/img/faces/nirbhay.jpg").default}
               />
             </div>
             <div className="name">
@@ -130,7 +130,7 @@ function ProfilePage() {
                             alt="..."
                             className="img-circle img-no-padding img-responsive"
                             src={
-                              require("assets/img/faces/clem-onojeghuo-2.jpg")
+                              require("assets/img/faces/nirbhay.jpg")
                                 .default
                             }
                           />
@@ -163,7 +163,7 @@ function ProfilePage() {
                             alt="..."
                             className="img-circle img-no-padding img-responsive"
                             src={
-                              require("assets/img/faces/ayo-ogunseinde-2.jpg")
+                              require("assets/img/faces/prakhar-kalani.jpg")
                                 .default
                             }
                           />

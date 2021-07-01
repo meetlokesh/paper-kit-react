@@ -1,4 +1,7 @@
 /*     General overwrite     */
+html {
+  scroll-behavior: smooth;
+}
 body{
     color: $font-color;
     font-size: $font-size-base;

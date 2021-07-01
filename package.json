@@ -2,9 +2,6 @@
   "name": "hobby-on",
   "version": "1.0.0",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "1.2.35",
-    "@fortawesome/free-solid-svg-icons": "5.15.3",
-    "@fortawesome/react-fontawesome": "0.1.14",
     "classnames": "2.2.6",
     "history": "5.0.0",
     "moment": "2.29.1",
@@ -13,7 +10,6 @@
     "react": "17.0.2",
     "react-datetime": "3.0.4",
     "react-dom": "17.0.2",
-    "react-player": "2.9.0",
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.3",
@@ -52,17 +48,15 @@
     "typescript": "4.2.3"
   },
   "devDependencies": {
-    "@babel/runtime": "7.13.8",
     "bootstrap": "4.6.0",
     "gulp": "4.0.2",
-    "gulp-append-prepend": "1.0.8",
-    "typescript": "4.1.3"
+    "gulp-append-prepend": "1.0.8"
   },
   "description": "Paper Kit React is a free Bootstrap 4, React, React Hooks and Reactstrap UI Kit with pale colors, beautiful typography and thoughtful drawings. We've created it having paper and drawings in mind.",
   "main": "src/assets/scss/hobby-on.scss",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/hobby-on-react.git"
+    "url": "https://github.com/meetlokesh/paper-kit-react"
   },
   "keywords": [
     "react",
@@ -85,6 +79,6 @@
   "author": "Mr. Technokr8",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/hobby-on-react/issues"
+    "url": "https://github.com/meetlokesh/paper-kit-react"
   }
 }

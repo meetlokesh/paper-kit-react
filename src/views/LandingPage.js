@@ -69,7 +69,7 @@ const LandingPage = () => {
             <br />
             <br />
             <Row>
-            <div><h4 className="info-title">Recent Classes</h4></div>
+            <div id="schedule"><h4 className="info-title">Recent Classes</h4></div>
               <Container className="flex-row-space-evenly">
                 
                 <Card style={{ width: '20rem' }}>
@@ -91,13 +91,8 @@ const LandingPage = () => {
                     <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
                     <Button href="/#" color="primary">watch recordings</Button>
                   </CardBody>
-                </Card><Card style={{ width: '20rem' }}>
-                  <CardBody>
-                    <CardTitle>Reading</CardTitle>
-                    <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                    <Button href="/#" color="primary">watch recordings</Button>
-                  </CardBody>
-                </Card></Container>
+                </Card>
+                </Container>
             </Row>
             <Row>
               <Col md="3">
@@ -172,7 +167,7 @@ const LandingPage = () => {
             </Row>
           </Container>
         </div>
-        <div className="section section-dark text-center">
+        <div className="section section-dark text-center" id="aboutUs">
           <Container>
             <h2 className="title">Let's talk about us</h2>
             <Row>
@@ -183,7 +178,7 @@ const LandingPage = () => {
                       <img
                         alt="..."
                         src={
-                          require("assets/img/faces/clem-onojeghuo-3.jpg")
+                          require("assets/img/faces/abhay-raj.jpg")
                             .default
                         }
                       />
@@ -238,7 +233,7 @@ const LandingPage = () => {
                       <img
                         alt="..."
                         src={
-                          require("assets/img/faces/clem-onojeghuo-3.jpg")
+                          require("assets/img/faces/nirbhay.jpg")
                             .default
                         }
                       />
@@ -292,7 +287,7 @@ const LandingPage = () => {
                       <img
                         alt="..."
                         src={
-                          require("assets/img/faces/joe-gardner-2.jpg").default
+                          require("assets/img/faces/prakhar-kalani.jpg").default
                         }
                       />
                     </a>
@@ -346,7 +341,7 @@ const LandingPage = () => {
                       <img
                         alt="..."
                         src={
-                          require("assets/img/faces/erik-lucatero-2.jpg")
+                          require("assets/img/faces/lokesh.jpg")
                             .default
                         }
                       />
@@ -397,7 +392,7 @@ const LandingPage = () => {
             </Row>
           </Container>
         </div>
-        <div className="section landing-section">
+        <div className="section landing-section" id="contactUs">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
