@@ -10,35 +10,29 @@ import { HashRouter, Route, Redirect, Switch } from "react-router-dom";
 
 // styles
 import "bootstrap/scss/bootstrap.scss";
-import "assets/scss/paper-kit.scss?v=1.3.0";
+import "assets/scss/hobby-on.scss?v=1.3.0";
 import "assets/demo/demo.css?v=1.3.0";
 // pages
-import Index from "views/Index.js";
-import NucleoIcons from "views/NucleoIcons.js";
-import Dashboard from "components/Dashboard/Dashboard.js";
-import ProfilePage from "views/examples/ProfilePage.js";
-import RegisterPage from "views/examples/RegisterPage.js";
+import ProfilePage from "views/ProfilePage.js";
+import LandingPage from "views/LandingPage";
+import RegisterPage from "views/RegisterPage.js";
 // others
 
 ReactDOM.render(
   <HashRouter>
     <Switch>
     <Route
+        exact
         path="/dashboard"
-        render={(props) => <Dashboard {...props} />}
-      />
-      <Route path="/guide" render={(props) => <Index {...props} />} />
+        render={(props) => <LandingPage {...props} />}
+      />    
+
       <Route
-        path="/nucleo-icons"
-        render={(props) => <NucleoIcons {...props} />}
-      />
-      
-      <Route
-        path="/profile-page"
+        path="/profile"
         render={(props) => <ProfilePage {...props} />}
       />
       <Route
-        path="/register-page"
+        path="/register"
         render={(props) => <RegisterPage {...props} />}
       />
       <Redirect to="/dashboard" />

@@ -1,6 +1,6 @@
-# [Paper Kit React - Free Bootstrap 4, React, React Hooks and Reactstrap UI Kit](https://demos.creative-tim.com/paper-kit-react/#/index?ref=pkr-github-readme) ![version](https://img.shields.io/badge/version-1.3.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-kit.svg?maxAge=2592000)](https://github.com/creativetimofficial/paper-kit-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/paper-kit-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/paper-kit-react/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+# [Paper Kit React - Free Bootstrap 4, React, React Hooks and Reactstrap UI Kit](https://demos.creative-tim.com/hobby-on-react/#/index?ref=pkr-github-readme) ![version](https://img.shields.io/badge/version-1.3.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-kit.svg?maxAge=2592000)](https://github.com/creativetimofficial/hobby-on-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/hobby-on-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/hobby-on-react/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
-![Paper Kit React](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-kit-react/opt_pk_react_thumbnail.jpg)
+![Paper Kit React](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/hobby-on-react/opt_pk_react_thumbnail.jpg)
 
 Paper Kit React is a free Bootstrap 4, React, React Hooks and Reactstrap UI Kit with pale colors, beautiful typography and thoughtful drawings. We've created it having paper and drawings in mind.
 
@@ -24,13 +24,13 @@ Paper Kit React is built on top of Bootstrap 4 using React and Reactstrap, so it
 Paper Kit React contains some pages already designed and implemented. Here is the list with the pages available. We are also working on more example pages, that you will be able to access no matter the version you download.
 
 
-* [Landing Page](https://demos.creative-tim.com/paper-kit-react/#/landing-page?ref=pkr-github-readme)
-* [Register](https://demos.creative-tim.com/paper-kit-react/#/register-page?ref=pkr-github-readme)
-* [Profile Page](https://demos.creative-tim.com/paper-kit-react/#/profile-page?ref=pkr-github-readme)
+* [Landing Page](https://demos.creative-tim.com/hobby-on-react/#/landing-page?ref=pkr-github-readme)
+* [Register](https://demos.creative-tim.com/hobby-on-react/#/register-page?ref=pkr-github-readme)
+* [Profile Page](https://demos.creative-tim.com/hobby-on-react/#/profile-page?ref=pkr-github-readme)
 
 Tutorial and components
 
-Once you download the archive, you will be able find a tutorial page inside it explaining how to start using it. You can also check the [documentation online](https://demos.creative-tim.com/paper-kit-react/#/documentation/introduction?ref=pkr-github-readme).
+Once you download the archive, you will be able find a tutorial page inside it explaining how to start using it. You can also check the [documentation online](https://demos.creative-tim.com/hobby-on-react/#/documentation/introduction?ref=pkr-github-readme).
 
 
 ## Table of Contents
@@ -50,31 +50,31 @@ Once you download the archive, you will be able find a tutorial page inside it e
 
 | HTML | Angular | React |
 | --- | --- | --- |
-| [![Paper Kit 2 HTML](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-kit-2-html/opt_pk2_thumbnail.jpg)](https://www.creative-tim.com/product/paper-kit-2?ref=pkr-github-readme)  | [![Paper Kit 2 Angular](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-kit-2-angular/opt_pk2_angular_thumbnail.jpg)](https://www.creative-tim.com/product/paper-kit-2-angular?ref=pkr-github-readme)  | [![Paper Kit  React](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-kit-react/opt_pk_react_thumbnail.jpg)](https://www.creative-tim.com/product/paper-kit-react?ref=pkr-github-readme)  
+| [![Paper Kit 2 HTML](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/hobby-on-2-html/opt_pk2_thumbnail.jpg)](https://www.creative-tim.com/product/hobby-on-2?ref=pkr-github-readme)  | [![Paper Kit 2 Angular](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/hobby-on-2-angular/opt_pk2_angular_thumbnail.jpg)](https://www.creative-tim.com/product/hobby-on-2-angular?ref=pkr-github-readme)  | [![Paper Kit  React](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/hobby-on-react/opt_pk_react_thumbnail.jpg)](https://www.creative-tim.com/product/hobby-on-react?ref=pkr-github-readme)  
 
 | Register Page | Landing Page | Profile Page  |
 | --- | --- | ---  |
-| [![Register Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-kit-react/register.png)](https://demos.creative-tim.com/paper-kit-react/#/register-page?ref=pkr-github-readme)  | [![Landing Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-kit-react/landing.png)](https://demos.creative-tim.com/paper-kit-react/#/landing-page?ref=pkr-github-readme)  | [![Profile Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-kit-react/profile.png)](https://demos.creative-tim.com/paper-kit-react/#/profile-page?ref=pkr-github-readme)  
+| [![Register Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/hobby-on-react/register.png)](https://demos.creative-tim.com/hobby-on-react/#/register-page?ref=pkr-github-readme)  | [![Landing Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/hobby-on-react/landing.png)](https://demos.creative-tim.com/hobby-on-react/#/landing-page?ref=pkr-github-readme)  | [![Profile Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/hobby-on-react/profile.png)](https://demos.creative-tim.com/hobby-on-react/#/profile-page?ref=pkr-github-readme)  
 
-[View More](https://demos.creative-tim.com/paper-kit-react/#/index?ref=pkr-github-readme)
+[View More](https://demos.creative-tim.com/hobby-on-react/#/index?ref=pkr-github-readme)
 
 ## Quick start
 
 1.  Download the project's zip
 2.  Make sure you have node.js (<https://nodejs.org/en/>) installed
 3.  Type `npm install` in terminal/console in the source folder where `package.json` is located
-4.  You will find all the branding colors inside `src/assets/scss/paper-kit/_variables.scss`. You can change them with a `HEX` value or with other predefined variables.
+4.  You will find all the branding colors inside `src/assets/scss/hobby-on/_variables.scss`. You can change them with a `HEX` value or with other predefined variables.
 5.  Run in terminal `npm start`.
 
 ## Documentation
-The documentation for the Paper Kit React is hosted at our [website](https://demos.creative-tim.com/paper-kit-react/#/documentation/introduction?ref=pkr-github-readme).
+The documentation for the Paper Kit React is hosted at our [website](https://demos.creative-tim.com/hobby-on-react/#/documentation/introduction?ref=pkr-github-readme).
 
 
 ## File Structure
 
 Within the download you'll find the following directories and files:
 ```
-paper-kit-react
+hobby-on-react
 .
 ├── CHANGELOG.md
 ├── ISSUE_TEMPLATE.md
@@ -101,15 +101,15 @@ paper-kit-react
     │   │   ├── faces
     │   │   ├── flags
     │   └── scss
-    │       ├── paper-kit
+    │       ├── hobby-on
     │       │   ├── cards
     │       │   ├── mixins
     │       │   └── plugins
     │       ├── react
-    │       │   ├── paper-kit
+    │       │   ├── hobby-on
     │       │   ├── plugins
     │       │   └── react-differences.scss
-    │       └── paper-kit.scss
+    │       └── hobby-on.scss
     ├── components
     │   ├── Footers
     │   │   └── DemoFooter.js
@@ -151,19 +151,19 @@ At present, we officially aim to support the last two versions of the following 
 
 
 ## Resources
-- Demo: <http://demos.creative-tim.com/paper-kit-react/#/index?ref=pkr-github-readme>
-- Download Page: <https://www.creative-tim.com/product/paper-kit-react?ref=pkr-github-readme>
-- Documentation: <https://demos.creative-tim.com/paper-kit-react/#/documentation/introduction?ref=pkr-github-readme>
+- Demo: <http://demos.creative-tim.com/hobby-on-react/#/index?ref=pkr-github-readme>
+- Download Page: <https://www.creative-tim.com/product/hobby-on-react?ref=pkr-github-readme>
+- Documentation: <https://demos.creative-tim.com/hobby-on-react/#/documentation/introduction?ref=pkr-github-readme>
 - License Agreement: <https://www.creative-tim.com/license?ref=pkr-github-readme>
 - Support: <https://www.creative-tim.com/contact-us?ref=pkr-github-readme>
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/paper-kit-react/issues)
+- Issues: [Github Issues Page](https://github.com/creativetimofficial/hobby-on-react/issues)
 
 
 **Dashboards:**
 
 | HTML | React | Vue  | Angular |
 | --- | --- | ---  | ---  |
-| [![Paper Dashboard  HTML](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-2-html/opt_pd2_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-2?ref=pkr-github-readme) | [![Paper Dashboard  React](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-react/opt_pd_react_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-pro-react?ref=pkr-github-readme) | [![Vue Paper Dashboard](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-paper-dashboard/opt_pd_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-paper-dashboard?ref=pkr-github-readme)  | [![ Paper Dashboard Angular](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-kit-2-angular/opt_pk2_angular_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-angular?ref=pkr-github-readme)
+| [![Paper Dashboard  HTML](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-2-html/opt_pd2_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-2?ref=pkr-github-readme) | [![Paper Dashboard  React](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-react/opt_pd_react_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-pro-react?ref=pkr-github-readme) | [![Vue Paper Dashboard](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-paper-dashboard/opt_pd_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-paper-dashboard?ref=pkr-github-readme)  | [![ Paper Dashboard Angular](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/hobby-on-2-angular/opt_pk2_angular_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-angular?ref=pkr-github-readme)
 
 ## Reporting Issues
 
@@ -175,7 +175,7 @@ We use GitHub Issues as the official bug tracker for the Paper Kit 2. Here are s
 
 ## Licensing
 
-- Copyright 2021 Creative Tim (https://www.creative-tim.com/?ref=pkr-github-readme)
+- Copyright 2021 Mr. Technokr8 (https://www.creative-tim.com/?ref=pkr-github-readme)
 
 [CHANGELOG]: ./CHANGELOG.md
 [LICENSE]: ./LICENSE.md
@@ -184,13 +184,13 @@ We use GitHub Issues as the official bug tracker for the Paper Kit 2. Here are s
 
 - [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
 - [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=pkr-github-readme) (earn money)
-- [Blog Creative Tim](http://blog.creative-tim.com/?ref=pkr-github-readme)
-- [Free Products](https://www.creative-tim.com/bootstrap-themes/free?ref=pkr-github-readme) from Creative Tim
-- [Premium Products](https://www.creative-tim.com/bootstrap-themes/premium?ref=pkr-github-readme) from Creative Tim
-- [React Products](https://www.creative-tim.com/bootstrap-themes/react-themes?ref=pkr-github-readme) from Creative Tim
-- [Angular Products](https://www.creative-tim.com/bootstrap-themes/angular-themes?ref=pkr-github-readme) from Creative Tim
-- [VueJS Products](https://www.creative-tim.com/bootstrap-themes/vuejs-themes?ref=pkr-github-readme) from Creative Tim
-- [More products](https://www.creative-tim.com/bootstrap-themes?ref=pkr-github-readme) from Creative Tim
+- [Blog Mr. Technokr8](http://blog.creative-tim.com/?ref=pkr-github-readme)
+- [Free Products](https://www.creative-tim.com/bootstrap-themes/free?ref=pkr-github-readme) from Mr. Technokr8
+- [Premium Products](https://www.creative-tim.com/bootstrap-themes/premium?ref=pkr-github-readme) from Mr. Technokr8
+- [React Products](https://www.creative-tim.com/bootstrap-themes/react-themes?ref=pkr-github-readme) from Mr. Technokr8
+- [Angular Products](https://www.creative-tim.com/bootstrap-themes/angular-themes?ref=pkr-github-readme) from Mr. Technokr8
+- [VueJS Products](https://www.creative-tim.com/bootstrap-themes/vuejs-themes?ref=pkr-github-readme) from Mr. Technokr8
+- [More products](https://www.creative-tim.com/bootstrap-themes?ref=pkr-github-readme) from Mr. Technokr8
 - Check our Bundles [here](https://www.creative-tim.com/bundles?ref=pkr-github-readme)
 
 ### Social Media

@@ -2,17 +2,25 @@
   "name": "hobby-on",
   "version": "1.0.0",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "1.2.35",
+    "@fortawesome/free-solid-svg-icons": "5.15.3",
+    "@fortawesome/react-fontawesome": "0.1.14",
     "classnames": "2.2.6",
+    "history": "5.0.0",
     "moment": "2.29.1",
     "node-sass": "5.0.0",
     "nouislider": "14.6.4",
     "react": "17.0.2",
     "react-datetime": "3.0.4",
     "react-dom": "17.0.2",
+    "react-player": "2.9.0",
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.3",
-    "reactstrap": "8.9.0"
+    "react-youtube": "7.13.1",
+    "reactstrap": "8.9.0",
+    "use-history": "1.4.1",
+    "uuid": "8.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,9 +28,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
-    "compile-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.css",
-    "minify-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.min.css --output-style compressed",
-    "map-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.css --source-map true"
+    "compile-sass": "node-sass src/assets/scss/hobby-on.scss src/assets/css/hobby-on.css",
+    "minify-sass": "node-sass src/assets/scss/hobby-on.scss src/assets/css/hobby-on.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/hobby-on.scss src/assets/css/hobby-on.css --source-map true"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -44,23 +52,25 @@
     "typescript": "4.2.3"
   },
   "devDependencies": {
+    "@babel/runtime": "7.13.8",
     "bootstrap": "4.6.0",
     "gulp": "4.0.2",
-    "gulp-append-prepend": "1.0.8"
+    "gulp-append-prepend": "1.0.8",
+    "typescript": "4.1.3"
   },
   "description": "Paper Kit React is a free Bootstrap 4, React, React Hooks and Reactstrap UI Kit with pale colors, beautiful typography and thoughtful drawings. We've created it having paper and drawings in mind.",
-  "main": "src/assets/scss/paper-kit.scss",
+  "main": "src/assets/scss/hobby-on.scss",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/paper-kit-react.git"
+    "url": "git+https://github.com/creativetimofficial/hobby-on-react.git"
   },
   "keywords": [
     "react",
     "reactstrap",
     "reactjs",
-    "paper-kit",
-    "paper-kit-react",
-    "paper-kit-2",
+    "hobby-on",
+    "hobby-on-react",
+    "hobby-on-2",
     "paper-kit2",
     "paper-design",
     "hook",
@@ -72,9 +82,9 @@
     "react-template",
     "react-theme"
   ],
-  "author": "Creative Tim",
+  "author": "Mr. Technokr8",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/paper-kit-react/issues"
+    "url": "https://github.com/creativetimofficial/hobby-on-react/issues"
   }
 }

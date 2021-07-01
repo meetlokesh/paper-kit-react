@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionCarousel from "views/index-sections/SectionCarousel.js";
+// import SectionCarousel from "views/index-sections/SectionCarousel.js";
 import {
     Button,
     Modal,
@@ -29,7 +29,7 @@ const PopupModal = () => {
                 </h5>
             </div>
             <div className="modal-body">
-            <SectionCarousel/>
+            {/* <SectionCarousel/> */}
             </div>
             <div className="modal-footer">
                 <div className="left-side">

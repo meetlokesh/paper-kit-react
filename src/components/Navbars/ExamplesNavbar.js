@@ -4,12 +4,12 @@
 * Paper Kit React - v1.3.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
+* Product Page: https://www.creative-tim.com/product/hobby-on-react
 
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
+* Copyright 2021 Mr. Technokr8 (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/hobby-on-react/blob/main/LICENSE.md)
 
-* Coded by Creative Tim
+* Coded by Mr. Technokr8
 
 =========================================================
 
@@ -75,7 +75,7 @@ function ExamplesNavbar() {
             data-placement="bottom"
             to="/index"
             target="_blank"
-            title="Coded by Creative Tim"
+            title="Coded by Mr. Technokr8"
             tag={Link}
           >
             Paper Kit 2
@@ -105,7 +105,7 @@ function ExamplesNavbar() {
             </NavItem>
             <NavItem>
               <NavLink
-                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-examples-navbar"
+                href="https://demos.creative-tim.com/hobby-on-react/#/documentation?ref=pkr-examples-navbar"
                 target="_blank"
               >
                 <i className="nc-icon nc-book-bookmark" /> Documentation
@@ -159,7 +159,7 @@ function ExamplesNavbar() {
               <Button
                 className="btn-round"
                 color="danger"
-                href="https://www.creative-tim.com/product/paper-kit-pro-react?ref=pkr-examples-navbar"
+                href="https://www.creative-tim.com/product/hobby-on-pro-react?ref=pkr-examples-navbar"
                 target="_blank"
               >
                 <i className="nc-icon nc-spaceship"></i> Upgrade to Pro

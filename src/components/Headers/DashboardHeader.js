@@ -1,22 +1,6 @@
-/*!
 
-=========================================================
-* Paper Kit React - v1.3.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
+import { useHistory } from "react-router-dom";
 
 // reactstrap components
 import { Button, Container } from "reactstrap";
@@ -25,6 +9,11 @@ import { Button, Container } from "reactstrap";
 
 function LandingPageHeader() {
   let pageHeader = React.createRef();
+  let history = useHistory();
+
+  const handleRoute = (routeTo) => {
+   history.push(routeTo);
+  }
 
   React.useEffect(() => {
     if (window.innerWidth < 991) {
@@ -67,7 +56,7 @@ function LandingPageHeader() {
               <i className="fa fa-play" />
               Watch video
             </Button>
-            <Button className="btn-round" color="neutral" type="button" outline>
+            <Button className="btn-round" color="neutral" type="button" onClick={e=> handleRoute('classes')} outline>
               Join Live Class
             </Button>
           </div>

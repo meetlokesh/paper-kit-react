@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 // nodejs library that concatenates strings
 import classnames from "classnames";
 
@@ -18,6 +18,11 @@ import {
 const SocialNetworkNavbar = ()=> {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
+  let history = useHistory();
+
+  const handleRoute = (routeTo) => {
+   history.push(routeTo);
+  }
 
   const toggleNavbarCollapse = () => {
     setNavbarCollapse(!navbarCollapse);
@@ -82,7 +87,16 @@ const SocialNetworkNavbar = ()=> {
           <Nav navbar>
             <NavItem>
               <NavLink to="/index" tag={Link}>
-                <i className="nc-icon nc-layout-11" /> Classes
+                <i className="nc-icon nc-layout-11" /> Schedule
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                href="http://thelokesh.co.in/"
+                target="_blank"
+                
+              >
+                <i className="nc-icon nc-book-bookmark" /> Contact Us
               </NavLink>
             </NavItem>
             <NavItem>
@@ -90,10 +104,11 @@ const SocialNetworkNavbar = ()=> {
                 href="http://thelokesh.co.in/"
                 target="_blank"
               >
-                <i className="nc-icon nc-book-bookmark" /> Uploaded Classes
+                <i className="nc-icon nc-book-bookmark" /> About Us
               </NavLink>
             </NavItem>
-            <NavItem>
+            
+            {/* <NavItem>
               <NavLink
                 data-placement="bottom"
                 href="http://thelokesh.co.in/"
@@ -126,7 +141,7 @@ const SocialNetworkNavbar = ()=> {
                 <p className="d-lg-none">Instagram</p>
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem> 
               <NavLink
                 data-placement="bottom"
                 href="http://thelokesh.co.in/"
@@ -136,15 +151,16 @@ const SocialNetworkNavbar = ()=> {
                 <i className="fa fa-github" />
                 <p className="d-lg-none">GitHub</p>
               </NavLink>
-            </NavItem>
+            </NavItem>*/}
             <NavItem>
               <Button
                 className="btn-round"
                 color="danger"
-                href="http://thelokesh.co.in/"
-                target="_blank"
+                // href="http://thelokesh.co.in/"
+                // target="_blank"
+                onClick={e =>handleRoute('register')}
               >
-                <i className="nc-icon nc-spaceship"></i> Join our batches
+                <i className="nc-icon nc-spaceship"></i> Join Hobby on
               </Button>
             </NavItem>
           </Nav>
