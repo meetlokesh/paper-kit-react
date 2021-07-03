@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 // nodejs library that concatenates strings
 import classnames from "classnames";
 
@@ -60,10 +60,8 @@ const SocialNetworkNavbar = ()=> {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            to="/index"
-            target="_blank"
-            title="Coded by Mr. Technokr8"
-            tag={Link}
+            onClick={e=>handleRoute('dashboard')}
+            title="Coded by Mr. Technokr8"            
           >
             Hobby On
           </NavbarBrand>

@@ -1,23 +1,5 @@
-/*!
-
-=========================================================
-* Paper Kit React - v1.3.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/hobby-on-react
-
-* Copyright 2021 Mr. Technokr8 (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/hobby-on-react/blob/main/LICENSE.md)
-
-* Coded by Mr. Technokr8
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
-
+import { useHistory } from "react-router-dom";
 // reactstrap components
 import {
   Button,
@@ -41,6 +23,11 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 
 function ProfilePage() {
   const [activeTab, setActiveTab] = React.useState("1");
+  let history = useHistory();
+
+  const handleRoute = (routeTo) => {
+   history.push(routeTo);
+  }
 
   const toggle = (tab) => {
     if (activeTab !== tab) {

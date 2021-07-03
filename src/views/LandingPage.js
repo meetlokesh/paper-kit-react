@@ -1,5 +1,5 @@
 import React from "react";
-
+import { useHistory } from "react-router-dom";
 // reactstrap components
 import {
   Button,
@@ -22,10 +22,16 @@ import {
 import SocialNetworkHeader from "components/Navbars/Navbar";
 import DashboardHeader from "components/Headers/DashboardHeader";
 import DemoFooter from "components/Footers/DemoFooter.js";
-import Gallery from "components/Gallery"
+import Gallery from "components/Gallery";
+import EventsAndClasses from "components/EventsAndClasses/EventsAndClasses"
 
 const LandingPage = () => {
   const [isOpen, setModal] = React.useState(false);
+  let history = useHistory();
+
+  const handleRoute = (routeTo) => {
+    history.push(routeTo);
+  }
 
   document.documentElement.classList.remove("nav-open");
 
@@ -68,32 +74,27 @@ const LandingPage = () => {
             </Row>
             <br />
             <br />
+            
+          <div className="section section-dark text-center" id="schedule">
+            {/* <Container> */}
             <Row>
-            <div id="schedule"><h4 className="info-title">Recent Classes</h4></div>
-              <Container className="flex-row-space-evenly">
-                
-                <Card style={{ width: '20rem' }}>
-                  <CardBody>
-                    <CardTitle>Drawings</CardTitle>
-                    <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                    <Button href="/#" color="primary">watch recordings</Button>
-                  </CardBody>
-                </Card>
-                <Card style={{ width: '20rem' }}>
-                  <CardBody>
-                    <CardTitle>English</CardTitle>
-                    <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                    <Button href="/#" color="primary">watch recordings</Button>
-                  </CardBody>
-                </Card><Card style={{ width: '20rem' }}>
-                  <CardBody>
-                    <CardTitle>Music</CardTitle>
-                    <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                    <Button href="/#" color="primary">watch recordings</Button>
-                  </CardBody>
-                </Card>
-                </Container>
-            </Row>
+            <Col className="ml-auto mr-auto">
+            <h2 className="title">Recent Classes</h2>
+            </Col>
+            </Row>            
+              <Row className=''>
+                <Col className="ml-auto mr-auto" sm="6" >
+                <EventsAndClasses />
+                </Col>
+                <Col className="ml-auto mr-auto" sm="6">
+                <EventsAndClasses />
+                </Col>
+              </Row>
+            {/* </Container> */}
+          </div>
+        
+            <br />
+            <br />
             <Row>
               <Col md="3">
                 <div className="info">
@@ -167,6 +168,7 @@ const LandingPage = () => {
             </Row>
           </Container>
         </div>
+
         <div className="section section-dark text-center" id="aboutUs">
           <Container>
             <h2 className="title">Let's talk about us</h2>
@@ -181,13 +183,14 @@ const LandingPage = () => {
                           require("assets/img/faces/abhay-raj.jpg")
                             .default
                         }
+                        onClick={e => handleRoute('profile')}
                       />
                     </a>
                   </div>
                   <CardBody>
                     <a href="/pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Abhay Raj </CardTitle>
+                        <CardTitle tag="h4" onClick={e => handleRoute('profile')}>Abhay Raj </CardTitle>
                         <h6 className="card-category">Product Head</h6>
                       </div>
                     </a>
@@ -225,7 +228,7 @@ const LandingPage = () => {
                   </CardFooter>
                 </Card>
               </Col>
-              
+
               <Col md="3">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
@@ -236,13 +239,14 @@ const LandingPage = () => {
                           require("assets/img/faces/nirbhay.jpg")
                             .default
                         }
+                        onClick={e => handleRoute('profile')}
                       />
                     </a>
                   </div>
                   <CardBody>
                     <a href="/pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Nirbhay Raj Tannu</CardTitle>
+                        <CardTitle tag="h4" onClick={e => handleRoute('profile')}>Nirbhay Raj Tannu</CardTitle>
                         <h6 className="card-category">Product Manager</h6>
                       </div>
                     </a>
@@ -289,13 +293,14 @@ const LandingPage = () => {
                         src={
                           require("assets/img/faces/prakhar-kalani.jpg").default
                         }
+                        onClick={e => handleRoute('profile')}
                       />
                     </a>
                   </div>
                   <CardBody>
                     <a href="/pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Prakhar Kalani</CardTitle>
+                        <CardTitle tag="h4" onClick={e => handleRoute('profile')}>Prakhar Kalani</CardTitle>
                         <h6 className="card-category">{"Designer & consultant"}</h6>
                       </div>
                     </a>
@@ -344,13 +349,14 @@ const LandingPage = () => {
                           require("assets/img/faces/lokesh.jpg")
                             .default
                         }
+                        onClick={e => handleRoute('profile')}
                       />
                     </a>
                   </div>
                   <CardBody>
                     <a href="/pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Mr. Technokr8</CardTitle>
+                        <CardTitle tag="h4" onClick={e => handleRoute('profile')}>Mr. Technokr8</CardTitle>
                         <h6 className="card-category">Developer</h6>
                       </div>
                     </a>
