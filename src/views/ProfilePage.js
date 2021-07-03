@@ -1,5 +1,4 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
 // reactstrap components
 import {
   Button,
@@ -23,11 +22,6 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 
 function ProfilePage() {
   const [activeTab, setActiveTab] = React.useState("1");
-  let history = useHistory();
-
-  const handleRoute = (routeTo) => {
-   history.push(routeTo);
-  }
 
   const toggle = (tab) => {
     if (activeTab !== tab) {
@@ -58,23 +52,20 @@ function ProfilePage() {
             </div>
             <div className="name">
               <h4 className="title">
-                Jane Faker <br />
+                Prakhar Kalani <br />
               </h4>
-              <h6 className="description">Music Producer</h6>
+              <h6 className="description">{"DESIGNER & CONSULTANT"}</h6>
             </div>
           </div>
           <Row>
             <Col className="ml-auto mr-auto text-center" md="6">
               <p>
-                An artist of considerable range, Jane Faker — the name taken by
-                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-                and records all of his own music, giving it a warm, intimate
-                feel with a solid groove structure.
+              The primary area of my interest is in solving business complexities through IT solutions. I am a Chartered Accountant and licensed practitioner along with Diploma in Information system Audit and certification in Forensic Accounting and Fraud detection. I am certified python developer and self-taught front-end developer. I have more than 7 years of experience in different industries which includes giants in Asset Management Company, FMCG, Equity & Commodity Broking and Telecom Sector. With the experience and knowledge of functional parameters of businesses and their processes and knowledge of various Front-End, Back-End languages enables me to provide to the point solutions.
               </p>
               <br />
-              <Button className="btn-round" color="default" outline>
+              {/* <Button className="btn-round" color="default" outline>
                 <i className="fa fa-cog" /> Settings
-              </Button>
+              </Button> */}
             </Col>
           </Row>
           <br />
@@ -124,8 +115,8 @@ function ProfilePage() {
                         </Col>
                         <Col className="ml-auto mr-auto" lg="7" md="4" xs="4">
                           <h6>
-                            Flume <br />
-                            <small>Musical Producer</small>
+                            Nirbhar Raj Tannu <br />
+                            <small>Product Manager</small>
                           </h6>
                         </Col>
                         <Col className="ml-auto mr-auto" lg="3" md="4" xs="4">
@@ -157,8 +148,8 @@ function ProfilePage() {
                         </Col>
                         <Col lg="7" md="4" xs="4">
                           <h6>
-                            Banks <br />
-                            <small>Singer</small>
+                            Abhay Raj <br />
+                            <small>Product head</small>
                           </h6>
                         </Col>
                         <Col lg="3" md="4" xs="4">
@@ -178,7 +169,7 @@ function ProfilePage() {
             <TabPane className="text-center" tabId="2" id="following">
               <h3 className="text-muted">Not following anyone yet :(</h3>
               <Button className="btn-round" color="warning">
-                Find artists
+                Find Teachers
               </Button>
             </TabPane>
           </TabContent>

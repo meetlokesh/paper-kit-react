@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {
     Button,
     Modal,
@@ -10,14 +10,12 @@ import {
     Row,
 } from "reactstrap";
 
-const EventBookingForm = ({ isOpen }) => {
+const EventBookingForm = () => {
     const [modal, setModal] = React.useState(true);
     const toggleModal = () => {
         setModal(!modal);
     };
-    useEffect(() => {
-        console.log("modal values changes", isOpen);
-    }, [modal]);
+    
     const handleSubmit= ()=>{
         console.log("submit button clicked");
         setModal(!modal);

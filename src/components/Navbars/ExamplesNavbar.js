@@ -78,7 +78,7 @@ function ExamplesNavbar() {
             title="Coded by Mr. Technokr8"
             tag={Link}
           >
-            Paper Kit 2
+            Hobby On
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}

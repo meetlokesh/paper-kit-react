@@ -36,7 +36,7 @@ const EventsAndClasses = () => {
                 <div className="class-body">
                     <div className="lh-content">
                         <h5>
-                            <a onClick={e => handleRoute('classes')}>
+                            <a href="/pablo" onClick={e => handleRoute('classes')}>
                                 <span className="CenterName upper-case" >
                                     Make Your Kids Digital Ready </span>
                             </a>
